@@ -1,0 +1,27 @@
+{
+  "name": "pp_appointment",
+  "version": "1.0.0",
+  "description": "gets user input and is able to store data on backend for appointment information",
+  "main": "node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdirashidexe/pp_appointment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdirashidexe/pp_appointment/issues"
+  },
+  "homepage": "https://github.com/abdirashidexe/pp_appointment#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
