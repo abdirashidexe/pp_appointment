@@ -23,3 +23,7 @@ app.post('/thankyou', (req,res) => {
     res.sendFile(`${import.meta.dirname}/thankyou.html`);
     console.log(req.body);
 });
+
+app.get('/admin', (req,res) => {
+    res.send(orderDetails);
+})
